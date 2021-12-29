@@ -1,0 +1,109 @@
+body {
+    background: #E5E5E5;
+}
+
+header {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+header .logo{
+    width: 186px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+header .formulario{
+    width: 900px;
+    margin: auto;
+}
+
+#pesquisa {
+    width: 751px;
+    height: 45px;
+    left: 98px;
+    top: 115px;
+    border: none;
+    padding-left: 3em;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+#btn_pesquisar{
+    width: 109px;
+    height: 46px;
+    left: 859px;
+    top: 114px;
+    font-weight: bold;
+    color: #FFCB05;
+
+    background: #3763AD;
+    border-radius: 10px;
+}
+
+main {
+    width: 924px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main div div img{
+    width: 122px;
+    height: 122px;
+    margin: auto;
+}
+
+main div::first-line{
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+main div::second-line{
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: rgba(0, 0, 0, 0.42);
+}
+
+.pokemon_planta{
+    text-align: center;
+    display: inline-block;
+    width: 181px;
+    height: 253px;
+    margin: auto;
+
+    background: #48D0B0;
+    border-radius: 25px;
+}
+
+.pokemon_fogo{
+    text-align: center;
+    display: inline-block;
+    width: 181px;
+    height: 253px;
+    margin: 0 auto;
+
+    background: #F66C6D;
+    border-radius: 25px;
+}
+
+.moldura {
+    width: 151px;
+    height: 151px;
+    margin: auto;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.4);
+}
