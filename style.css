@@ -104,6 +104,9 @@ main div h3{
     width: 151px;
     height: 151px;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     border-radius: 100px;
     background: rgba(255, 255, 255, 0.4);
